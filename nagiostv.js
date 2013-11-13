@@ -96,7 +96,7 @@
 		
 		json_service_problems:{},
 		
-		title:'NagiosTV status-json edition',
+		title:(config_servername.length > 0 ? config_servername : 'NagiosTV status-json edition'),
 	  
 		doIt: function() {
 			var that = this;
